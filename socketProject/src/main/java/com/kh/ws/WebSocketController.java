@@ -9,4 +9,8 @@ public class WebSocketController {
 	public String basic() {
 		return "basic";
 	}
+	@RequestMapping("/group")
+	public String group() {
+		return "group";
+	}
 }
